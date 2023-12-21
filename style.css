@@ -1,0 +1,58 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 40px; */
+  /* gap: 20px; */
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.imgContainer {
+  object-fit: cover;
+  flex: 1;
+  /* border: 1px solid blue; */
+  height: auto;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+}
+.container h2 {
+  text-transform: capitalize;
+  text-decoration: double;
+  font-size: 18px;
+}
+.countdown {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.countdown div {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.countdown h3 {
+  font-size: 30px;
+}
